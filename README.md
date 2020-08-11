@@ -1,2 +1,4 @@
 # anomaly_detection_video
 An anomaly detection network for video analysis based on variational autoencoder is created here. It is based on compressing a number of frames into a single image for conserving the spatio-temporal relationship of the objects, and the combined image is then feeded into an autoencoder network for training. The jupyter notebook file Dynamic_image.ipynb is used for combining the images. data.ipynb is used for training on the model created using tensorflow on the background. test.ipynb is used for testing the model.
+
+Datasets used for training are: Avenue, USCD Ped1 and USCD Ped2 datasets. The system has achieved significant performance when comparing with other existing methods. Area under the curve and Equal error rate can be used for comparing the performance of the system.
